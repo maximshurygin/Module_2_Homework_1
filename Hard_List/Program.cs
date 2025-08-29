@@ -15,8 +15,7 @@ for (int i = 0; i < 4; i++)
     numberList.Add(number);
 }
 
-// создание пустой строки для более понятного вывода
-Console.WriteLine();
+Console.WriteLine("\nВывод каждого второго элемента из списка:");
 
 // вывод каждого второго элемента списка
 for (int i = 1; i < numberList.Count; i+=2)
