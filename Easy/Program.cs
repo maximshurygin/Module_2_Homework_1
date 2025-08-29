@@ -14,7 +14,7 @@ void FindArraySumUsingFor(int[] array)
     Console.WriteLine($"Сумма (for): {sumFor}");
 }
 
-// Вызов функции FindArraySumFor
+// Вызов функции FindArraySumUsingFor
 FindArraySumUsingFor(numberArray);
 
 // Функция для нахождения суииы элементов массива с помощью цикла while
@@ -31,5 +31,5 @@ void FindArraySumUsingWhile(int[] array)
     Console.WriteLine($"Сумма (while): {sumWhile}");
 }
 
-//Вызов функции FindArraySumWhile
+//Вызов функции FindArraySumUsingWhile
 FindArraySumUsingWhile(numberArray);

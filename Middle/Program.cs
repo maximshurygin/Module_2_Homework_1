@@ -8,7 +8,7 @@ numberList.Add(-3);
 numberList.Add(8);
 
 // Функция для нахождения суммы элементов списка с помощью цикла for
-void FindSumUsingFor(List<int> list)
+void FindListSumUsingFor(List<int> list)
 {
     int sumFor = 0;
     for (int i = 0; i < list.Count; i++)
@@ -18,11 +18,11 @@ void FindSumUsingFor(List<int> list)
     Console.WriteLine($"Сумма (for): {sumFor}");
 }
 
-// Вызов функции FindSumUsingFor
-FindSumUsingFor(numberList);
+// Вызов функции FindListSumUsingFor
+FindListSumUsingFor(numberList);
 
 // Функция для нахождения суммы элементов списка с помощью цикла foreach
-void FindSumUsingForEach(List<int> list)
+void FindListSumUsingForEach(List<int> list)
 {
     int sumForEach = 0;
     foreach(int number in list)
@@ -32,5 +32,5 @@ void FindSumUsingForEach(List<int> list)
     Console.WriteLine($"Сумма (foreach): {sumForEach}");
 }
 
-// // Вызов функции FindSumUsingForEach
-FindSumUsingForEach(numberList);
+// // Вызов функции FindListSumUsingForEach
+FindListSumUsingForEach(numberList);
