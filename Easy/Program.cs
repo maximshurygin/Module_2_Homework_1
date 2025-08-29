@@ -3,7 +3,7 @@
 int[] numberArray  = {1, 6, 4, -2, 8, 17};
 
 // Функция для нахождения суммы элементов массива с помощью цикла for
-void FindArraySumFor(int[] array)
+void FindArraySumUsingFor(int[] array)
 {
     int sumFor = 0;
 
@@ -15,10 +15,10 @@ void FindArraySumFor(int[] array)
 }
 
 // Вызов функции FindArraySumFor
-FindArraySumFor(numberArray);
+FindArraySumUsingFor(numberArray);
 
 // Функция для нахождения суииы элементов массива с помощью цикла while
-void FindArraySumWhile(int[] array)
+void FindArraySumUsingWhile(int[] array)
 {
     int sumWhile = 0;
     int index = 0;
@@ -32,4 +32,4 @@ void FindArraySumWhile(int[] array)
 }
 
 //Вызов функции FindArraySumWhile
-FindArraySumWhile(numberArray);
+FindArraySumUsingWhile(numberArray);
